@@ -1,0 +1,43 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: aptkit
+Upstream-Contact: Mauna Linux <dev@maunalinux.top>
+Source: https://github.com/maunalinux/aptkit.git
+
+Files: *
+Copyright: © 2024 Aptkit developers
+License: GPL-2+
+
+Files: data/icons/*
+Copyright: © 2008 Mike Langlie <mlanglie@redhat.com>
+           © 2008 Richard Hughes <richard@hughsie.com>
+           © 2024 Aptkit developers
+License: GPL-2+
+
+Files: doc/*
+Copyright: © 2008 Sebastian Heinlein <devel@glatzor.de>
+           © 2024 Aptkit developers
+License: GPL-2+
+
+Files: aptkit/*
+Copyright: © 2008 Canonical Ltd.
+           © 2008 Aidan Skinner <aidan@skinner.me.uk>
+           © 2008 Martin Pitt <martin.pitt@ubuntu.com>
+           © 2008 Tim Lauridsen <timlau@fedoraproject.org>
+           © 2008 Sebastian Heinlein <devel@glatzor.de>
+           © 2024 Aptkit developers
+License: GPL-2+
+
+Files: aptkit/debconf.py
+Copyright: © 2009 Sebastian Heinlein <devel@glatzor.de>
+           © 2009 Michael Vogt <mvo@ubuntu.com>
+           © 2024 Aptkit developers
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.

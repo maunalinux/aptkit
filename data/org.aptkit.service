@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.aptkit
+Exec=/usr/sbin/aptk
+User=root
+

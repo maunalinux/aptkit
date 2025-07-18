@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  <vendor>AptKit</vendor>
+  <vendor_url>https://github.com/linuxmint/aptkit/</vendor_url>
+  <icon_name>package-x-generic</icon_name>
+
+  <action id="org.aptkit.get-trusted-vendor-keys">
+    <description>
+      List keys of trusted vendors
+    </description>
+    <message>
+      To view the list of trusted keys, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.clean">
+    <description>
+      Remove downloaded package files
+    </description>
+    <message>
+      To clean downloaded package files, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.change-config">
+    <description>
+      Change software configuration
+    </description>
+    <message>
+      To change software settings, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.change-repository">
+    <description>
+      Change software repository 
+    </description>
+    <message>
+      To change software repository settings, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.install-file">
+    <description>
+      Install package file
+    </description>
+    <message>
+      To install this package, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.update-cache">
+    <description>
+      Update package information
+    </description>
+    <message>
+      To update the software catalog, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.install-or-remove-packages">
+    <description>
+      Install or remove packages
+    </description>
+    <message>
+      To install or remove software, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.install-packages.high-trust-repo">
+    <!-- This priviledge will be requested when installing a package
+         from a high trusted repository that can be explicitely whitelisted.
+
+         The defaults for this action are the same as
+         "org.aptkit.install-or-remove-packages".
+
+         The admin can override them to e.g. allow passwordless installs for
+         leightweight applications like unity-webapps or for packages
+         comming from high trust repositories (like internal repositories)
+    -->
+    <description>
+      Install software from a high-trust whitelisted repository.
+    </description>
+    <message>
+      To install software, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.install-packages-from-new-repo">
+    <!-- This privilege allows to call AddRepository, UpdateCache(Partially)
+	 and InstallPackages in a row and only authenticating once.
+
+         The client has to authenticate for this privilege before calling
+	 the aptkit methods. -->
+    <description>
+      Add a new repository and install packages from it
+    </description>
+    <message>
+      To install software from a new source, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.install-purchased-packages">
+    <!-- This privilege allows to call AddRepository, UpdateCache(Partially)
+	 and InstallPackages in a row and only authenticating once.
+
+         The client has to authenticate for this privilege before calling
+	 the aptkit methods.
+
+	 The only difference to install-packages-from-new-repo is the wording
+	 of the message. It is required by Ubuntu's Software-Center. -->
+    <description>
+      Add a new repository of purchased software and install packages from it
+    </description>
+    <message>
+      To install purchased software, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.upgrade-packages">
+    <description>
+      Upgrade packages
+    </description>
+    <message>To install updated software, you need to authenticate.</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.cancel-foreign">
+    <description>
+      Cancel the task of another user
+    </description>
+    <message>
+      To cancel someone else's software changes, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+
+  <action id="org.aptkit.set-proxy">
+    <description>
+      Set a proxy for software downloads
+    </description>
+    <message>
+      To use a proxy server for downloading software, you need to authenticate.
+    </message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig>
