@@ -1,3 +1,11 @@
+aptkit (1.0.4mauna1) mauna; urgency=medium
+
+  * New upstream release
+  * Backport to Mauna Linux
+  * l10n: Update pt_BR translation
+
+ -- Mauna Linux <dev@maunalinux.top>  Sat, 19 Jul 2025 16:51:04 -0300
+
 aptkit (1.0.4) xia; urgency=medium
 
   * l10n: Update translations
