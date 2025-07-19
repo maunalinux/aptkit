@@ -1,14 +1,15 @@
 Source: aptkit
 Section: admin
 Priority: optional
-Maintainer: Linux Mint <root@linuxmint.com>
+Maintainer: Mauna Linux <dev@maunalinux.top>
+XSBC-Original-Maintainer: Linux Mint <root@linuxmint.com>
 Build-Depends:
  debhelper-compat (= 13),
  gettext,
  libpolkit-gobject-1-dev (>= 123) | polkitd (<< 123),
  meson,
 Standards-Version: 4.6.2
-Homepage: https://github.com/linuxmint/aptkit
+Homepage: https://github.com/maunalinux/aptkit
 
 Package: aptkit
 Architecture: all
