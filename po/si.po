@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:04+0000\n"
+"PO-Revision-Date: 2025-09-08 15:45-0300\n"
 "Last-Translator: පසිඳු කාවින්ද <pkavinda@gmail.com>\n"
 "Language-Team: Sinhalese <si@li.org>\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: \n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -48,8 +48,7 @@ msgstr "මෘදුකාංග ගබඩාව වෙනස් කරන්න
 
 #: ../data/org.debian.aptkit.policy.in.h:8
 msgid "To change software repository settings, you need to authenticate."
-msgstr ""
-"මෘදුකාංග කෝෂ්ඨාගාර සැකසුම් වෙනස් කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
+msgstr "මෘදුකාංග කෝෂ්ඨාගාර සැකසුම් වෙනස් කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #: ../data/org.debian.aptkit.policy.in.h:9
 msgid "Install package file"
@@ -65,8 +64,7 @@ msgstr "පැකේජයේ තොරතුරු යාවත්කාලී�
 
 #: ../data/org.debian.aptkit.policy.in.h:12
 msgid "To update the software catalog, you need to authenticate."
-msgstr ""
-"මෙම මෘදුකාංග නාමාවලිය යාවත්කාලීන කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
+msgstr "මෙම මෘදුකාංග නාමාවලිය යාවත්කාලීන කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #: ../data/org.debian.aptkit.policy.in.h:13
 msgid "Install or remove packages"
@@ -78,14 +76,14 @@ msgstr "මෘදුකාංග ස්ථාපනය හෝ ඉවත් ක�
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr ""
@@ -96,7 +94,7 @@ msgstr ""
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -105,22 +103,19 @@ msgstr "අලුත් ගබඩාවක් එකතු කර එමගි�
 
 #: ../data/org.debian.aptkit.policy.in.h:33
 msgid "To install software from a new source, you need to authenticate."
-msgstr ""
-"නව මූලාශ්‍රයකින් මෘදුකාංග ස්ථාපනය කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
+msgstr "නව මූලාශ්‍රයකින් මෘදුකාංග ස්ථාපනය කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
-msgstr ""
-"මිලදී ගත් මෘදුකාංගවල අලුත් ගබඩාවක් එකතු කර එමගින් පැකේජ ස්ථාපනය කරන්න"
+msgid "Add a new repository of purchased software and install packages from it"
+msgstr "මිලදී ගත් මෘදුකාංගවල අලුත් ගබඩාවක් එකතු කර එමගින් පැකේජ ස්ථාපනය කරන්න"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
 msgid "To install purchased software, you need to authenticate."
@@ -132,8 +127,7 @@ msgstr "පැකේජයන් උසස් කරන්න"
 
 #: ../data/org.debian.aptkit.policy.in.h:45
 msgid "To install updated software, you need to authenticate."
-msgstr ""
-"යාවත්කාලීන කෙරූ මෘදුකාංග ස්ථාපනය කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
+msgstr "යාවත්කාලීන කෙරූ මෘදුකාංග ස්ථාපනය කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #: ../data/org.debian.aptkit.policy.in.h:46
 msgid "Cancel the task of another user"
@@ -141,9 +135,7 @@ msgstr "අනෙත් පරිශීලකගේ කාර්යන් අව
 
 #: ../data/org.debian.aptkit.policy.in.h:47
 msgid "To cancel someone else's software changes, you need to authenticate."
-msgstr ""
-"වෙනත් අය විසින් සිදු කෙරූ මෘදුකාංග වෙනස්කම් අහෝසි කිරීම සඳහා, ඔබට සත්‍යවත් "
-"කිරීමට සිදුවේ."
+msgstr "වෙනත් අය විසින් සිදු කෙරූ මෘදුකාංග වෙනස්කම් අහෝසි කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #: ../data/org.debian.aptkit.policy.in.h:48
 msgid "Set a proxy for software downloads"
@@ -152,9 +144,7 @@ msgstr "මෘදුකාංග අවපතන සඳහා පෙරකලා
 #: ../data/org.debian.aptkit.policy.in.h:49
 msgid ""
 "To use a proxy server for downloading software, you need to authenticate."
-msgstr ""
-"මෘදුකාංග බාගතකිරීමට පෙරකලාසි සර්වරයක් භාවිතා කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට "
-"සිදුවේ."
+msgstr "මෘදුකාංග බාගතකිරීමට පෙරකලාසි සර්වරයක් භාවිතා කිරීම සඳහා, ඔබට සත්‍යවත් කිරීමට සිදුවේ."
 
 #: ../aptkit/core.py:2148
 msgid "Do not shutdown the daemon because of inactivity"

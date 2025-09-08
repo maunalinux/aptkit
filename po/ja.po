@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:37+0000\n"
+"PO-Revision-Date: 2025-09-08 15:41-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: ja\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -32,7 +32,8 @@ msgstr "ダウンロードしたパッケージファイルの削除"
 
 #: ../data/org.debian.aptkit.policy.in.h:4
 msgid "To clean downloaded package files, you need to authenticate."
-msgstr "ダウンロードしたパッケージファイルを削除するには、認証する必要があります"
+msgstr ""
+"ダウンロードしたパッケージファイルを削除するには、認証する必要があります"
 
 #: ../data/org.debian.aptkit.policy.in.h:5
 msgid "Change software configuration"
@@ -72,21 +73,24 @@ msgstr "パッケージのインストールまたは削除"
 
 #: ../data/org.debian.aptkit.policy.in.h:14
 msgid "To install or remove software, you need to authenticate."
-msgstr "ソフトウェアをインストールまたは削除するには、認証を行う必要があります。"
+msgstr ""
+"ソフトウェアをインストールまたは削除するには、認証を行う必要があります。"
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
-msgstr "信頼性の高いホワイトリストに載っているリポジトリからソフトウェアをインストールします。"
+msgstr ""
+"信頼性の高いホワイトリストに載っているリポジトリからソフトウェアをインストー"
+"ルします。"
 
 #: ../data/org.debian.aptkit.policy.in.h:26
 msgid "To install software, you need to authenticate."
@@ -94,7 +98,7 @@ msgstr "ソフトウェアをインストールするには認証が必要です
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -107,15 +111,14 @@ msgstr "新しいソースからソフトウェアをインストールするに
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "新しいリポジトリを追加してパッケージをインストールします"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
@@ -145,7 +148,8 @@ msgstr "ソフトウェアダウンロードのためのプロキシを設定"
 #: ../data/org.debian.aptkit.policy.in.h:49
 msgid ""
 "To use a proxy server for downloading software, you need to authenticate."
-msgstr "ソフトウェアのダウンロードにプロキシサーバーを利用するには、認証が必要です。"
+msgstr ""
+"ソフトウェアのダウンロードにプロキシサーバーを利用するには、認証が必要です。"
 
 #: ../aptkit/core.py:2148
 msgid "Do not shutdown the daemon because of inactivity"
@@ -369,7 +373,8 @@ msgstr "ソフトウェアソースの追加に失敗しました"
 
 #: ../aptkit/enums.py:395
 msgid "Enabling component of the distribution failed"
-msgstr "ディストリビューションの指定されたコンポーネントを利用可能にできませんでした"
+msgstr ""
+"ディストリビューションの指定されたコンポーネントを利用可能にできませんでした"
 
 #: ../aptkit/enums.py:397 ../aptkit/enums.py:398
 msgid "Removing downloaded package files failed"
@@ -393,38 +398,47 @@ msgid ""
 "they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
 msgstr ""
-"サードパーティのリポジトリを使用しているかどうかを確認してください。利用している場合、トラブルの原因になる場合があるので無効にしてください。\n"
+"サードパーティのリポジトリを使用しているかどうかを確認してください。利用して"
+"いる場合、トラブルの原因になる場合があるので無効にしてください。\n"
 "そのうえで端末から次のコマンドを実行してください: apt-get install -f"
 
 #: ../aptkit/enums.py:411
 msgid "The selected file may not be a GPG key file or it might be corrupt."
-msgstr "選択したファイルはGPG鍵ファイルではないか、壊れている可能性があります。"
+msgstr ""
+"選択したファイルはGPG鍵ファイルではないか、壊れている可能性があります。"
 
 #: ../aptkit/enums.py:413
 msgid ""
 "The selected key couldn't be removed. Check that you provided a valid "
 "fingerprint."
-msgstr "選択された鍵は削除できません。有効なフィンガープリントを入力したか確認してください"
+msgstr ""
+"選択された鍵は削除できません。有効なフィンガープリントを入力したか確認してく"
+"ださい"
 
 #: ../aptkit/enums.py:415
 msgid ""
 "Check if you are currently running another software management tool, e.g. "
 "Synaptic or aptitude. Only one tool is allowed to make changes at a time."
 msgstr ""
-"他のソフトウェア管理ツールを現在実行していないかどうか確認してください。例: Synaptic または "
-"aptitude。同時にソフトウェアの変更を行えるのは 1 つのツールのみです。"
+"他のソフトウェア管理ツールを現在実行していないかどうか確認してください。例: "
+"Synaptic または aptitude。同時にソフトウェアの変更を行えるのは 1 つのツールの"
+"みです。"
 
 #: ../aptkit/enums.py:418
 msgid ""
 "This is a serious problem. Try again later. If this problem appears again, "
 "please report an error to the developers."
-msgstr "重大な問題が発生しました。もう一度行い、再度問題が生じた場合には開発チームにエラー報告をお願いします。"
+msgstr ""
+"重大な問題が発生しました。もう一度行い、再度問題が生じた場合には開発チームに"
+"エラー報告をお願いします。"
 
 #: ../aptkit/enums.py:421
 msgid ""
 "Check the spelling of the package name, and that the appropriate repository "
 "is enabled."
-msgstr "パッケージ名のスペルや、パッケージに合ったリポジトリが有効になっているか確認してください。"
+msgstr ""
+"パッケージ名のスペルや、パッケージに合ったリポジトリが有効になっているか確認"
+"してください。"
 
 #: ../aptkit/enums.py:423
 msgid "There isn't any need for an update."
@@ -447,7 +461,9 @@ msgstr "削除を要求したパッケージはシステムの重要な部分に
 msgid ""
 "The connection to the daemon was lost. Most likely the background daemon "
 "crashed."
-msgstr "デーモンとの接続が切断されました。バックグラウンドデーモンがクラッシュした可能性が極めて高いです。"
+msgstr ""
+"デーモンとの接続が切断されました。バックグラウンドデーモンがクラッシュした可"
+"能性が極めて高いです。"
 
 #: ../aptkit/enums.py:432
 msgid "The installation or removal of a software package failed."
@@ -463,7 +479,8 @@ msgid ""
 "you to install/remove software and to perform other package management "
 "related tasks."
 msgstr ""
-"ソフトウェアをインストール/削除したり、他のパッケージ管理に関連したタスクを行うソフトウェアである、aptkitのプログラミングエラーのようです。"
+"ソフトウェアをインストール/削除したり、他のパッケージ管理に関連したタスクを行"
+"うソフトウェアである、aptkitのプログラミングエラーのようです。"
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -472,12 +489,15 @@ msgid ""
 "between software packages which are not allowed to be installed at the same "
 "time."
 msgstr ""
-"このエラーは必要な追加ソフトウェアパッケージが見つからないかインストールされていないため発生したものです。そのうえ、同時にインストールできないソフトウェア"
-"パッケージの間で衝突が発生している可能性があります。"
+"このエラーは必要な追加ソフトウェアパッケージが見つからないかインストールされ"
+"ていないため発生したものです。そのうえ、同時にインストールできないソフトウェ"
+"アパッケージの間で衝突が発生している可能性があります。"
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
-msgstr "この操作には認証されていないソースからのパッケージをインストールする必要があります。"
+msgstr ""
+"この操作には認証されていないソースからのパッケージをインストールする必要があ"
+"ります。"
 
 #: ../aptkit/enums.py:447
 msgid ""
@@ -485,13 +505,16 @@ msgid ""
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
 msgstr ""
-"関係のあるソフトウェアパッケージでエラーが発生したか、通常ではない方法で中断されたためインストールに失敗した可能性があります。ソフトウェアをインストールま"
-"たは削除する前に、この問題を修正する必要があります。"
+"関係のあるソフトウェアパッケージでエラーが発生したか、通常ではない方法で中断"
+"されたためインストールに失敗した可能性があります。ソフトウェアをインストール"
+"または削除する前に、この問題を修正する必要があります。"
 
 #: ../aptkit/enums.py:453
 msgid ""
 "Please copy the file to your local computer and check the file permissions."
-msgstr "ファイルをローカルのコンピュータにコピーして、ファイルの権限をチェックしてください。"
+msgstr ""
+"ファイルをローカルのコンピュータにコピーして、ファイルの権限をチェックしてく"
+"ださい。"
 
 #: ../aptkit/enums.py:456
 msgid ""
@@ -500,8 +523,9 @@ msgid ""
 "the person or organisation who provided this package file and include the "
 "details beneath."
 msgstr ""
-"品質を満たしていない壊れたパッケージのインストールは許可されていません。コンピュータに深刻な問題を発生させる可能性があるからです。詳細については、このパッ"
-"ケージを作成した人物か組織に連絡してください。"
+"品質を満たしていない壊れたパッケージのインストールは許可されていません。コン"
+"ピュータに深刻な問題を発生させる可能性があるからです。詳細については、この"
+"パッケージを作成した人物か組織に連絡してください。"
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -509,7 +533,8 @@ msgid ""
 "is not valid or could not be installed correctly.\n"
 "See the details for more information."
 msgstr ""
-"このソフトウェアを実行するのに必要なダウンロード済みのライセンスキーが有効でないか、または正常にインストールされていません。\n"
+"このソフトウェアを実行するのに必要なダウンロード済みのライセンスキーが有効で"
+"ないか、または正常にインストールされていません。\n"
 "詳しい情報は詳細を確認してください。"
 
 #: ../aptkit/enums.py:469
@@ -520,7 +545,9 @@ msgstr "すべての利用可能なアップグレードはすでにインスト
 msgid ""
 "The license key which allows you to use this piece of software could not be "
 "downloaded. Please check your network connection."
-msgstr "このソフトウェアの使用を許可するライセンスキーがダウンロードできませんでした。ネットワーク接続を確認してください。"
+msgstr ""
+"このソフトウェアの使用を許可するライセンスキーがダウンロードできませんでし"
+"た。ネットワーク接続を確認してください。"
 
 #: ../aptkit/enums.py:475
 msgid "You don't have the required privileges to perform this action."
@@ -534,8 +561,9 @@ msgid ""
 "PolicyKit session agent."
 msgstr ""
 "間違ったパスワードを入力したか、認証がキャンセルされました。\n"
-"もし、パスワードダイアログが表示されなかった場合、デスクトップ環境が PolicyKit "
-"セッションエージェントを提供していないという技術的な問題が発生した可能性があります。"
+"もし、パスワードダイアログが表示されなかった場合、デスクトップ環境が "
+"PolicyKit セッションエージェントを提供していないという技術的な問題が発生した"
+"可能性があります。"
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -856,7 +884,8 @@ msgstr "'%s' という名のCD/DVDが必要です"
 msgid ""
 "Please insert the above CD/DVD into the drive '%s' to install software "
 "packages from it."
-msgstr "パッケージをインストールするため、CD/DVDをドライブ '%s' に入れてください。"
+msgstr ""
+"パッケージをインストールするため、CD/DVDをドライブ '%s' に入れてください。"
 
 #: ../aptkit/gtk3widgets.py:866 ../aptkit/gtk3widgets.py:887
 msgid "C_ontinue"
@@ -957,7 +986,9 @@ msgstr "変更されている '%s' を最新バージョンの設定ファイル
 msgid ""
 "If you don't know why the file is there already, it is usually safe to "
 "replace it."
-msgstr "そのファイルが存在している理由が分からない場合は、通常置き換えたほうが安全です。"
+msgstr ""
+"そのファイルが存在している理由が分からない場合は、通常置き換えたほうが安全で"
+"す。"
 
 #: ../aptkit/gtk3widgets.py:1080
 msgid "_Changes"
@@ -1168,7 +1199,9 @@ msgstr "パッケージ %s は削除できません"
 msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
-msgstr "このパッケージは、正しいInstall-Sizeが記述されていません。Debian Policy 5.6.20を確認してください。"
+msgstr ""
+"このパッケージは、正しいInstall-Sizeが記述されていません。Debian Policy "
+"5.6.20を確認してください。"
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"
@@ -1193,7 +1226,9 @@ msgstr "ライセンスキーはすでに存在しています： %s"
 msgid ""
 "The location of the license key is unsecure since it contains symbolic "
 "links. The path %s maps to %s"
-msgstr "ライセンスキーの場所はシンボリックリンクを含んでいるため安全ではありません。パス%sは%sにマップされています。"
+msgstr ""
+"ライセンスキーの場所はシンボリックリンクを含んでいるため安全ではありません。"
+"パス%sは%sにマップされています。"
 
 #: ../aptkit/worker/aptworker.py:1335
 #, python-format

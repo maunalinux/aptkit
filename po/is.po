@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: po_aptkit-is\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-10-15 11:51+0000\n"
+"PO-Revision-Date: 2025-09-08 15:40-0300\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: is\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -78,14 +78,14 @@ msgstr "Til að setja upp eða fjarlægja pakka, þarft þú að auðkenna þig.
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "Setja inn hugbúnað frá hvítlistuðu hugbúnaðarsafni með mikið traust."
@@ -96,7 +96,7 @@ msgstr "Til að setja upp hugbúnað, þarft þú að auðkenna þig."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -109,15 +109,14 @@ msgstr "Til að setja upp hugbúnað frá nýju safni, þarft þú að auðkenna
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr ""
 "Bæta við nýju hugbúnaðarsafni með keyptum hugbúnaði og setja upp pakka frá "
 "því"
@@ -151,8 +150,7 @@ msgstr "Setja inn milliðjón (proxy) fyrir niðurhal hugbúnaðar"
 #: ../data/org.debian.aptkit.policy.in.h:49
 msgid ""
 "To use a proxy server for downloading software, you need to authenticate."
-msgstr ""
-"Til að nota milliþjón við að ná í hugbúnað, þarft þú að auðkenna þig."
+msgstr "Til að nota milliþjón við að ná í hugbúnað, þarft þú að auðkenna þig."
 
 #: ../aptkit/core.py:2148
 msgid "Do not shutdown the daemon because of inactivity"
@@ -176,11 +174,11 @@ msgstr "Hlusta á DBus-rás setunnar (eingöngu til prófunar"
 
 #: ../aptkit/core.py:2171
 msgid "Perform operations in the given chroot"
-msgstr ""
+msgstr "Framkvæma aðgerðir í gefnu chroot"
 
 #: ../aptkit/core.py:2176
 msgid "Store profile stats in the specified file"
-msgstr ""
+msgstr "Vistaðu prófílstöðuna í tilgreinda skrá"
 
 #: ../aptkit/core.py:2181
 msgid "Do not make any changes to the system (Only of use to developers)"
@@ -401,6 +399,9 @@ msgid ""
 "they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
 msgstr ""
+"Athugaðu hvort þú sért að nota þriðja aðila geyma. Ef svo er, slökktu á "
+"þeim, þar sem þeir eru algengur uppspretta vandamála.\n"
+"Auk þess skaltu keyra eftirfarandi skipun í Terminal: apt-get install -f"
 
 #: ../aptkit/enums.py:411
 msgid "The selected file may not be a GPG key file or it might be corrupt."
@@ -464,6 +465,7 @@ msgid ""
 "The connection to the daemon was lost. Most likely the background daemon "
 "crashed."
 msgstr ""
+"Tengingin við daemonið tapaðist. Fulltrúlega hefur bakgrunsdaemonið hrunið."
 
 #: ../aptkit/enums.py:432
 msgid "The installation or removal of a software package failed."
@@ -479,6 +481,9 @@ msgid ""
 "you to install/remove software and to perform other package management "
 "related tasks."
 msgstr ""
+"Það virðist vera forritunarvilla í aptkit, hugbúnaðinum sem gerir þér kleift "
+"að setja upp/fjarlægja hugbúnað og framkvæma aðrar skyldar "
+"pakkastjórnunartasks."
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -487,10 +492,13 @@ msgid ""
 "between software packages which are not allowed to be installed at the same "
 "time."
 msgstr ""
+"Þessa villu gæti orsakað nauðsynlegar viðbót hugbúnaðarupplýsingar sem "
+"vantar eða er ekki hægt að setja upp. Þar að auki gæti verið árekstur milli "
+"hugbúnaðarupplýsinga sem ekki er leyft að setja upp á sama tíma."
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
-msgstr ""
+msgstr "Þetta krefst þess að setja upp pakkar frá óvottuðum dessum."
 
 #: ../aptkit/enums.py:447
 msgid ""
@@ -498,6 +506,9 @@ msgid ""
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
 msgstr ""
+"Uppsetningin gæti hafa mistekist vegna villa í tilheyrandi hugbúnaðarpakka "
+"eða hún var hætt á óvinarlega hátt. Þú þarft að laga þetta áður en þú getur "
+"sett upp eða fjarlægt annan hugbúnað."
 
 #: ../aptkit/enums.py:453
 msgid ""
@@ -511,6 +522,10 @@ msgid ""
 "the person or organisation who provided this package file and include the "
 "details beneath."
 msgstr ""
+"Uppsetning á pakkningu sem brýtur gegn gæðastaðlum er ekki leyfð. Þetta gæti "
+"valdið alvarlegum vandamálum á tölvunni þinni. Vinsamlegast hafðu samband "
+"við þann aðila eða samtök sem veittu þennan pakkaskrá og fæððu upplýsingar "
+"hér að neðan."
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -518,6 +533,9 @@ msgid ""
 "is not valid or could not be installed correctly.\n"
 "See the details for more information."
 msgstr ""
+"Nedlagða leyfislykillinn sem nauðsynlegur er til að keyra þetta "
+"hugbúnaðardæmi er ekki gildur eða gat ekki verið rétt settur upp.\n"
+"Sjáðu smáatriðin fyrir frekari upplýsingar."
 
 #: ../aptkit/enums.py:469
 msgid "All available upgrades have already been installed."
@@ -528,6 +546,8 @@ msgid ""
 "The license key which allows you to use this piece of software could not be "
 "downloaded. Please check your network connection."
 msgstr ""
+"Leyfislykillinn sem leyfir þér að nota þessa hugbúnaðaruppsprettu gat ekki "
+"verið hlaðinn niður. Vinsamlegast athugaðu nettengingu þína."
 
 #: ../aptkit/enums.py:475
 msgid "You don't have the required privileges to perform this action."
@@ -540,6 +560,10 @@ msgid ""
 "haven't seen a password dialog: your desktop environment doesn't provide a "
 "PolicyKit session agent."
 msgstr ""
+"Þú hefur annað hvort slegið inn rangt lykilorð eða aflýst heimildinni.\n"
+"Auk þess gæti einnig verið tæknileg ástæða fyrir þessari villu ef þú hefur "
+"ekki séð læsipasasamskipti: skrifborðsumhverfið þitt veitir ekki PolicyKit "
+"sessagent."
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -958,12 +982,16 @@ msgstr "%sB meira diskpláss verður notað."
 msgid ""
 "Replace your changes in '%s' with a later version of the configuration file?"
 msgstr ""
+"Viltu skipta út breytingum þínum í '%s' fyrir nýrri útgáfu af "
+"stillingaskránni?"
 
 #: ../aptkit/gtk3widgets.py:1071
 msgid ""
 "If you don't know why the file is there already, it is usually safe to "
 "replace it."
 msgstr ""
+"Ef þú veist ekki af hverju skráin er þar nú þegar, er yfirleitt öruggt að "
+"skipta um hana."
 
 #: ../aptkit/gtk3widgets.py:1080
 msgid "_Changes"
@@ -1175,6 +1203,8 @@ msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
 msgstr ""
+"Pakkinn veitir ekki gilt control-felt fyrir Installed-Size. Sjá Debian "
+"stefnuna 5.6.20."
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"

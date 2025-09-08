@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-10-15 14:57+0000\n"
+"PO-Revision-Date: 2025-09-08 15:29-0300\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: da\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -76,14 +76,14 @@ msgstr "Du skal godkende for at installere eller fjerne programmer."
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "Installér software fra et hvidlistet, højt betroet arkiv."
@@ -94,7 +94,7 @@ msgstr "Du skal godkende for at installere programmer."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -107,15 +107,14 @@ msgstr "Du skal godkende for at installere programmer fra en ny kilde."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "Tilføj et nyt arkiv med købte programmer og installér pakker fra det"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
@@ -454,8 +453,7 @@ msgstr "Fjernelse er ikke nødvendig."
 #: ../aptkit/enums.py:427
 msgid ""
 "You requested to remove a package which is an essential part of your system."
-msgstr ""
-"Du anmodede om at fjerne en pakke, som er en vigtig del af dit system."
+msgstr "Du anmodede om at fjerne en pakke, som er en vigtig del af dit system."
 
 #: ../aptkit/enums.py:430
 msgid ""
@@ -496,8 +494,7 @@ msgstr ""
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
-msgstr ""
-"Dette kræver installation af pakker fra kilder, som ikke er godkendte."
+msgstr "Dette kræver installation af pakker fra kilder, som ikke er godkendte."
 
 #: ../aptkit/enums.py:447
 msgid ""

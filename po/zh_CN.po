@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-10 09:04+0000\n"
+"PO-Revision-Date: 2025-09-08 15:54-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: \n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -78,14 +78,14 @@ msgstr "要安装或卸载软件，您需要进行验证。"
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "从高度受信的白名单软件仓库中安装软件。"
@@ -96,7 +96,7 @@ msgstr "您需要经过认证方可安装软件。"
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -109,15 +109,14 @@ msgstr "要从新的软件源中安装软件，您需要进行验证。"
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "添加一个新的付费软件源并从中安装软件包"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
@@ -412,13 +411,16 @@ msgstr "所选的密钥无法移除。检查您提供的指纹是否有效。"
 msgid ""
 "Check if you are currently running another software management tool, e.g. "
 "Synaptic or aptitude. Only one tool is allowed to make changes at a time."
-msgstr "检查您有没有运行其他软件包管理工具，比如新立得或者 aptitude。在同一时间只有一个工具可以进行更改。"
+msgstr ""
+"检查您有没有运行其他软件包管理工具，比如新立得或者 aptitude。在同一时间只有一"
+"个工具可以进行更改。"
 
 #: ../aptkit/enums.py:418
 msgid ""
 "This is a serious problem. Try again later. If this problem appears again, "
 "please report an error to the developers."
-msgstr "这是个很严重的问题。请稍后重试。如果问题还出现，请向开发人员报告一个错误。"
+msgstr ""
+"这是个很严重的问题。请稍后重试。如果问题还出现，请向开发人员报告一个错误。"
 
 #: ../aptkit/enums.py:421
 msgid ""
@@ -462,7 +464,9 @@ msgid ""
 "There seems to be a programming error in aptkit, the software that allows "
 "you to install/remove software and to perform other package management "
 "related tasks."
-msgstr "aptkit 中似乎有编程错误，该软件用于安装、卸载软件并且执行其他的软件包管理任务。"
+msgstr ""
+"aptkit 中似乎有编程错误，该软件用于安装、卸载软件并且执行其他的软件包管理任"
+"务。"
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -470,7 +474,9 @@ msgid ""
 "are missing or not installable. Furthermore there could be a conflict "
 "between software packages which are not allowed to be installed at the same "
 "time."
-msgstr "这个错误可能是需要不存在或不可安装的软件包引起的。或者可能在软件包之间有冲突，它们不能同时安装。"
+msgstr ""
+"这个错误可能是需要不存在或不可安装的软件包引起的。或者可能在软件包之间有冲"
+"突，它们不能同时安装。"
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
@@ -481,7 +487,9 @@ msgid ""
 "The installation could have failed because of an error in the corresponding "
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
-msgstr "安装失败可能是因为对应软件包的错误或者被意外取消。您必须修复这个问题才能继续安装或移除软件。"
+msgstr ""
+"安装失败可能是因为对应软件包的错误或者被意外取消。您必须修复这个问题才能继续"
+"安装或移除软件。"
 
 #: ../aptkit/enums.py:453
 msgid ""
@@ -494,7 +502,9 @@ msgid ""
 "allowed. This could cause serious problems on your computer. Please contact "
 "the person or organisation who provided this package file and include the "
 "details beneath."
-msgstr "安装会违反质量标准的软件包不被允许，因这可能对您的计算机造成问题。请联系提供此软件包文件的组织或个人，并提供以下详细信息。"
+msgstr ""
+"安装会违反质量标准的软件包不被允许，因这可能对您的计算机造成问题。请联系提供"
+"此软件包文件的组织或个人，并提供以下详细信息。"
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -527,7 +537,8 @@ msgid ""
 "PolicyKit session agent."
 msgstr ""
 "您密码输入错误或者取消了授权。\n"
-"此外，如果您没有看见密码对话框，这个错误可能是由于技术原因导致的：您的桌面环境没有提供 PolicyKit 会话代理。"
+"此外，如果您没有看见密码对话框，这个错误可能是由于技术原因导致的：您的桌面环"
+"境没有提供 PolicyKit 会话代理。"
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -1160,7 +1171,8 @@ msgstr "无法卸载软件包 %s"
 msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
-msgstr "软件包没有提供合法的 Installed-Size 控制字符串。查看 Debian Policy 5.6.20。"
+msgstr ""
+"软件包没有提供合法的 Installed-Size 控制字符串。查看 Debian Policy 5.6.20。"
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"

@@ -6,15 +6,15 @@ msgstr ""
 "Project-Id-Version: po_aptkit-km\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:05+0000\n"
+"PO-Revision-Date: 2025-09-08 15:42-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: \n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -22,9 +22,7 @@ msgstr "រាយ​បញ្ជី​សោ​​របស់​ក្រុម
 
 #: ../data/org.debian.aptkit.policy.in.h:2
 msgid "To view the list of trusted keys, you need to authenticate."
-msgstr ""
-"មើល​បញ្ជី​របស់​​សោ​​​ដែល​ជឿ​ទុកចិត្ត អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ "
-"។"
+msgstr "មើល​បញ្ជី​របស់​​សោ​​​ដែល​ជឿ​ទុកចិត្ត អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:3
 msgid "Remove downloaded package files"
@@ -32,8 +30,7 @@ msgstr "យក​ឯកសារ​កញ្ចប់​ដែល​បាន​
 
 #: ../data/org.debian.aptkit.policy.in.h:4
 msgid "To clean downloaded package files, you need to authenticate."
-msgstr ""
-"សម្អាត​ឯកសារ​កញ្ចប់​ដែល​បាន​ទាញ​យក អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "សម្អាត​ឯកសារ​កញ្ចប់​ដែល​បាន​ទាញ​យក អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:5
 msgid "Change software configuration"
@@ -41,8 +38,7 @@ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​រច
 
 #: ../data/org.debian.aptkit.policy.in.h:6
 msgid "To change software settings, you need to authenticate."
-msgstr ""
-"ផ្លាស់ប្ដូរ​ការ​កំណត់​ផ្នែក​ទន់ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ផ្នែក​ទន់ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:7
 msgid "Change software repository"
@@ -50,9 +46,7 @@ msgstr "ផ្លាស់ប្ដូរ​ឃ្លាំង​ផ្នែក
 
 #: ../data/org.debian.aptkit.policy.in.h:8
 msgid "To change software repository settings, you need to authenticate."
-msgstr ""
-"ផ្លាស់ប្ដូរ​ការ​កំណត់​ឃ្លាំង​ផ្នែក​ទន់ "
-"អ្នក​​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ឃ្លាំង​ផ្នែក​ទន់ អ្នក​​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:9
 msgid "Install package file"
@@ -68,9 +62,7 @@ msgstr "ធ្វើ​បច្ចុប្បន្នភាព​ព័ត៌
 
 #: ../data/org.debian.aptkit.policy.in.h:12
 msgid "To update the software catalog, you need to authenticate."
-msgstr ""
-"ធ្វើ​បច្ចុប្បន្នភាព​កាតាឡុក​ផ្នែក​ទន់ "
-"អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ធ្វើ​បច្ចុប្បន្នភាព​កាតាឡុក​ផ្នែក​ទន់ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:13
 msgid "Install or remove packages"
@@ -82,14 +74,14 @@ msgstr "ដំឡើង ឬ​យក​ផ្នែក​ទន់​ចេញ �
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "ដំឡើង​កម្មវិធី​ពី​ឃ្លាំង​បាន​ដាក់​ក្នុង​បញ្ជី​ស​ដែល​ទុកចិត្ត។"
@@ -100,7 +92,7 @@ msgstr "ដើម្បី​ដំឡើង​កម្មវិធី ដែ�
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -109,26 +101,23 @@ msgstr "បន្ថែម​ឃ្លាំង​ថ្មី និង​ដ�
 
 #: ../data/org.debian.aptkit.policy.in.h:33
 msgid "To install software from a new source, you need to authenticate."
-msgstr ""
-"ដំឡើង​ផ្នែក​ទន់​ពី​ប្រភព​ថ្មី អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ដំឡើង​ផ្នែក​ទន់​ពី​ប្រភព​ថ្មី អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "បន្ថែម​ឃ្លាំង​ថ្មី​នៃ​ផ្នែក​ទន់​ដែល​បាន​ជាវ ហើយ​ដំឡើង​កញ្ចប់​ពី​វា"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
 msgid "To install purchased software, you need to authenticate."
-msgstr ""
-"ដំឡើង​ផ្នែក​ទន់​ដែល​បាន​ជាវ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ដំឡើង​ផ្នែក​ទន់​ដែល​បាន​ជាវ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:44
 msgid "Upgrade packages"
@@ -136,9 +125,7 @@ msgstr "ធ្វើ​ឲ្យ​កញ្ចប់​ប្រសើរ​ឡ
 
 #: ../data/org.debian.aptkit.policy.in.h:45
 msgid "To install updated software, you need to authenticate."
-msgstr ""
-"ដំឡើង​ផ្នែក​ទន់​ដែល​បាន​ធ្វើ​បច្ចុប្បន្នភាព "
-"អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ដំឡើង​ផ្នែក​ទន់​ដែល​បាន​ធ្វើ​បច្ចុប្បន្នភាព អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:46
 msgid "Cancel the task of another user"
@@ -146,9 +133,7 @@ msgstr "បោះបង់​​កិច្ចការ​របស់​អ្
 
 #: ../data/org.debian.aptkit.policy.in.h:47
 msgid "To cancel someone else's software changes, you need to authenticate."
-msgstr ""
-"បោះបង់​ការ​ផ្លាស់ប្ដូរ​ផ្នែក​ទន់​ផ្សេង​ទៀត "
-"អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "បោះបង់​ការ​ផ្លាស់ប្ដូរ​ផ្នែក​ទន់​ផ្សេង​ទៀត អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../data/org.debian.aptkit.policy.in.h:48
 msgid "Set a proxy for software downloads"
@@ -157,9 +142,7 @@ msgstr "កំណត់​ប្រូកស៊ី​សម្រាប់​ក
 #: ../data/org.debian.aptkit.policy.in.h:49
 msgid ""
 "To use a proxy server for downloading software, you need to authenticate."
-msgstr ""
-"ប្រើ​ម៉ាស៊ីន​បម្រើ​ប្រូកស៊ី​សម្រាប់​​ទាញ​យក​ផ្នែក​ទន់ "
-"អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
+msgstr "ប្រើ​ម៉ាស៊ីន​បម្រើ​ប្រូកស៊ី​សម្រាប់​​ទាញ​យក​ផ្នែក​ទន់ អ្នក​ចាំបាច់​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ ។"
 
 #: ../aptkit/core.py:2148
 msgid "Do not shutdown the daemon because of inactivity"
@@ -191,9 +174,7 @@ msgstr "រក្សាទុក​ទម្រង់​នៅ​ក្នុង
 
 #: ../aptkit/core.py:2181
 msgid "Do not make any changes to the system (Only of use to developers)"
-msgstr ""
-"កុំ​ធ្វើ​ការ​ផ្លាស់ប្ដូរ​ទៅ​កាន់​ប្រព័ន្ធ "
-"(ប្រើ​តែ​ចំពោះ​អ្នក​អភិវឌ្ឍន៍​ប៉ុណ្ណោះ)"
+msgstr "កុំ​ធ្វើ​ការ​ផ្លាស់ប្ដូរ​ទៅ​កាន់​ប្រព័ន្ធ (ប្រើ​តែ​ចំពោះ​អ្នក​អភិវឌ្ឍន៍​ប៉ុណ្ណោះ)"
 
 #: ../aptkit/enums.py:337
 msgid "Installed file"
@@ -409,48 +390,40 @@ msgid ""
 "they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
 msgstr ""
-"ពិនិត្យ​មើល ប្រសិនបើ​អ្នក​កំពុង​ប្រើ​ឃ្លាំង​ភាគី​ទី​បី ។ ប្រសិនបើ​បិទ "
-"នៅ​ពេល​ដែល​ពួកវា​មាន​ប្រភព​បញ្ហា ។\n"
+"ពិនិត្យ​មើល ប្រសិនបើ​អ្នក​កំពុង​ប្រើ​ឃ្លាំង​ភាគី​ទី​បី ។ ប្រសិនបើ​បិទ នៅ​ពេល​ដែល​ពួកវា​មាន​ប្រភព​បញ្ហា ។\n"
 "រត់​​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ ៖ apt-get install -f"
 
 #: ../aptkit/enums.py:411
 msgid "The selected file may not be a GPG key file or it might be corrupt."
-msgstr ""
-"ឯកសារ​ដែល​បាន​ជ្រើស​​អាច​មិន​មែន​​ជា​ឯកសារ​សោ​របស់ GPG ឬ​វា​អាច​ខូច ។"
+msgstr "ឯកសារ​ដែល​បាន​ជ្រើស​​អាច​មិន​មែន​​ជា​ឯកសារ​សោ​របស់ GPG ឬ​វា​អាច​ខូច ។"
 
 #: ../aptkit/enums.py:413
 msgid ""
 "The selected key couldn't be removed. Check that you provided a valid "
 "fingerprint."
-msgstr ""
-"សោ​ដែល​បាន​ជ្រើស​មិន​អាច​យក​ចេញ​បាន​ទេ ។ "
-"ពិនិត្យ​មើល​ថា​អ្នក​បាន​ផ្ដិត​ម្រាម​ដៃ​ត្រឹមត្រូវ​​ហើយ​ ។"
+msgstr "សោ​ដែល​បាន​ជ្រើស​មិន​អាច​យក​ចេញ​បាន​ទេ ។ ពិនិត្យ​មើល​ថា​អ្នក​បាន​ផ្ដិត​ម្រាម​ដៃ​ត្រឹមត្រូវ​​ហើយ​ ។"
 
 #: ../aptkit/enums.py:415
 msgid ""
 "Check if you are currently running another software management tool, e.g. "
 "Synaptic or aptitude. Only one tool is allowed to make changes at a time."
 msgstr ""
-"ពិនិត្យមើល "
-"ប្រសិនបើ​​អ្នក​កំពុង​ដំណើរការ​ឧបករណ៍​ការ​គ្រប់គ្រង​ផ្នែក​ទន់​បច្ចុប្បន្ន ឧ. "
-"Synaptic ឬ aptitude ។ "
-"អនុញ្ញាត​ឲ្យ​តែ​ឧបករណ៍​​ប៉ុណ្ណោះ​ធ្វើ​ការ​ផ្លាស់ប្ដូរ​​នៅ​ពេល​តែ​មួយ​បាន ។"
+"ពិនិត្យមើល ប្រសិនបើ​​អ្នក​កំពុង​ដំណើរការ​ឧបករណ៍​ការ​គ្រប់គ្រង​ផ្នែក​ទន់​បច្ចុប្បន្ន ឧ. Synaptic ឬ "
+"aptitude ។ អនុញ្ញាត​ឲ្យ​តែ​ឧបករណ៍​​ប៉ុណ្ណោះ​ធ្វើ​ការ​ផ្លាស់ប្ដូរ​​នៅ​ពេល​តែ​មួយ​បាន ។"
 
 #: ../aptkit/enums.py:418
 msgid ""
 "This is a serious problem. Try again later. If this problem appears again, "
 "please report an error to the developers."
 msgstr ""
-"វា​ជា​បញ្ហា​ធ្ងន់ធ្ងរ ។ ព្យាយាមម្ដងទៀត ។ "
-"ប្រសិនបើ​នៅ​តែ​មាន​បញ្ហា​លេចឡើង​ទៀត​នោះ "
-"សូម​រាយការណ៍​កំហុស​​ទៅ​អ្នក​អភិវឌ្ឍន៍ ។"
+"វា​ជា​បញ្ហា​ធ្ងន់ធ្ងរ ។ ព្យាយាមម្ដងទៀត ។ ប្រសិនបើ​នៅ​តែ​មាន​បញ្ហា​លេចឡើង​ទៀត​នោះ សូម​រាយការណ៍​កំហុស​​ទៅ​"
+"អ្នក​អភិវឌ្ឍន៍ ។"
 
 #: ../aptkit/enums.py:421
 msgid ""
 "Check the spelling of the package name, and that the appropriate repository "
 "is enabled."
-msgstr ""
-"ពិនិត្យមើល​អក្ខរាវិរុទ្ធ​នៃ​ឈ្មោះ​កញ្ចប់ នោះ​ឃ្លាំង​នឹង​ត្រូវ​បាន​បើក​ ។"
+msgstr "ពិនិត្យមើល​អក្ខរាវិរុទ្ធ​នៃ​ឈ្មោះ​កញ្ចប់ នោះ​ឃ្លាំង​នឹង​ត្រូវ​បាន​បើក​ ។"
 
 #: ../aptkit/enums.py:423
 msgid "There isn't any need for an update."
@@ -467,8 +440,7 @@ msgstr "មិន​ចាំបាច់​​ការ​យកចេញ​ឡ
 #: ../aptkit/enums.py:427
 msgid ""
 "You requested to remove a package which is an essential part of your system."
-msgstr ""
-"អ្នក​បាន​ស្នើ​យក​កញ្ចប់​ចេញ​ដែល​ជា​ផ្នែក​ចាំបាច់​របស់​ប្រព័ន្ធ​របស់​អ្នក ។"
+msgstr "អ្នក​បាន​ស្នើ​យក​កញ្ចប់​ចេញ​ដែល​ជា​ផ្នែក​ចាំបាច់​របស់​ប្រព័ន្ធ​របស់​អ្នក ។"
 
 #: ../aptkit/enums.py:430
 msgid ""
@@ -490,9 +462,8 @@ msgid ""
 "you to install/remove software and to perform other package management "
 "related tasks."
 msgstr ""
-"ហាក់​បី​ដូច​​ជា​​មាន​កំហុស​ក្នុង​ការ​សរសេរ​កម្មវិធី​នៅ​ក្នុង aptkit "
-"ផ្នែក​ទន់​ដែល​អនុញ្ញាត​ឲ្យ​អ្នក ដំឡើង/​យក​ចេញ ផ្នែក​ទន់ "
-"ត្រូវ​ប្រតិបត្តិ​កិច្ចការ​ដែល​ទាក់ទង​ការ​គ្រប់គ្រង​កញ្ចប់​ផ្សេង ។"
+"ហាក់​បី​ដូច​​ជា​​មាន​កំហុស​ក្នុង​ការ​សរសេរ​កម្មវិធី​នៅ​ក្នុង aptkit ផ្នែក​ទន់​ដែល​អនុញ្ញាត​ឲ្យ​អ្នក ដំឡើង/​យក​ចេញ "
+"ផ្នែក​ទន់ ត្រូវ​ប្រតិបត្តិ​កិច្ចការ​ដែល​ទាក់ទង​ការ​គ្រប់គ្រង​កញ្ចប់​ផ្សេង ។"
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -501,9 +472,8 @@ msgid ""
 "between software packages which are not allowed to be installed at the same "
 "time."
 msgstr ""
-"កំហុស​នេះ​អាច​បណ្ដាល​មក​ពី​​​កញ្ចប់​ផ្នែក​ទន់​​​បន្ថែម​ដែល​បាន​ទាមទារ "
-"ខូច​ឬ​មិន​អាច​ដំឡើង​បាន ។  អាច​ប៉ះ​ទង្គិច​រវាង​កញ្ចប់​ផ្នែក​ទន់ "
-"ដែល​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ដំឡើង​នៅ​ពេល​តែមួយ ។"
+"កំហុស​នេះ​អាច​បណ្ដាល​មក​ពី​​​កញ្ចប់​ផ្នែក​ទន់​​​បន្ថែម​ដែល​បាន​ទាមទារ ខូច​ឬ​មិន​អាច​ដំឡើង​បាន ។  អាច​ប៉ះ​ទង្គិច​រវាង​"
+"កញ្ចប់​ផ្នែក​ទន់ ដែល​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ដំឡើង​នៅ​ពេល​តែមួយ ។"
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
@@ -515,17 +485,13 @@ msgid ""
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
 msgstr ""
-"ការ​ដំឡើង​អាច​បរាជ័យ "
-"ដោយសារ​តែ​​មាន​កំហុស​នៅ​ក្នុង​កញ្ចប់​ផ្នែក​ទន់​មិន​ត្រូវគ្នា "
-"ឬ​វា​អាច​ត្រូវ​បាន​បោះបង់​ ។ អ្នក​ត្រូវ​ជួសជុល​វា​សិន មុន​ពេល​អ្នក​ដំឡើង "
-"ឬ​យក​ផ្នែក​ទន់​ចេញ ។"
+"ការ​ដំឡើង​អាច​បរាជ័យ ដោយសារ​តែ​​មាន​កំហុស​នៅ​ក្នុង​កញ្ចប់​ផ្នែក​ទន់​មិន​ត្រូវគ្នា ឬ​វា​អាច​ត្រូវ​បាន​បោះបង់​ ។ អ្នក​"
+"ត្រូវ​ជួសជុល​វា​សិន មុន​ពេល​អ្នក​ដំឡើង ឬ​យក​ផ្នែក​ទន់​ចេញ ។"
 
 #: ../aptkit/enums.py:453
 msgid ""
 "Please copy the file to your local computer and check the file permissions."
-msgstr ""
-"សូម​ចម្លង​ឯកសារ​ទៅកាន់​កុំព្យូទ័រ​មូលដ្ឋាន​របស់​អ្នក "
-"ហើយ​ពិនិត្យ​មើល​សិទ្ធ​ឯកសារ ។"
+msgstr "សូម​ចម្លង​ឯកសារ​ទៅកាន់​កុំព្យូទ័រ​មូលដ្ឋាន​របស់​អ្នក ហើយ​ពិនិត្យ​មើល​សិទ្ធ​ឯកសារ ។"
 
 #: ../aptkit/enums.py:456
 msgid ""
@@ -534,9 +500,8 @@ msgid ""
 "the person or organisation who provided this package file and include the "
 "details beneath."
 msgstr ""
-"ការ​ដំឡើង​កញ្ចប់​​ដែល​ផ្អាក​ស្តង់ដារ​គុណភាព​មិន​​ត្រូវ​បាន​អនុញ្ញាត​ឡើយ ។ "
-"វា​​អាច​បណ្ដាល​ឲ្យ​មាន​បញ្ហា​ធ្ងន់ធ្ងរ​នៅ​លើ​កុំព្យូទ័រ​របស់​អ្នក ។ "
-"សូម​ទាក់ទង​អង្គភាព ឬ​អ្នក​ដែល​បាន​ផ្ដល់​ឯកសារ​កញ្ចប់​នេះ ។"
+"ការ​ដំឡើង​កញ្ចប់​​ដែល​ផ្អាក​ស្តង់ដារ​គុណភាព​មិន​​ត្រូវ​បាន​អនុញ្ញាត​ឡើយ ។ វា​​អាច​បណ្ដាល​ឲ្យ​មាន​បញ្ហា​ធ្ងន់ធ្ងរ​នៅ​"
+"លើ​កុំព្យូទ័រ​របស់​អ្នក ។ សូម​ទាក់ទង​អង្គភាព ឬ​អ្នក​ដែល​បាន​ផ្ដល់​ឯកសារ​កញ្ចប់​នេះ ។"
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -544,9 +509,8 @@ msgid ""
 "is not valid or could not be installed correctly.\n"
 "See the details for more information."
 msgstr ""
-"សោ​អាជ្ញាប័ណ្ណ​ដែល​បាន​ទាញ​យក​ត្រូវ​បាន​ទាមទារ "
-"ដើម្បី​ដំណើរការ​ផ្នែក​ទន់​​មិន​ត្រឹមត្រូវ "
-"ឬ​មិន​អាច​ត្រូវ​បាន​​​ដំឡើង​​​បច្ចុប្បន្ន ។\n"
+"សោ​អាជ្ញាប័ណ្ណ​ដែល​បាន​ទាញ​យក​ត្រូវ​បាន​ទាមទារ ដើម្បី​ដំណើរការ​ផ្នែក​ទន់​​មិន​ត្រឹមត្រូវ ឬ​មិន​អាច​ត្រូវ​បាន​​​ដំឡើង​​​"
+"បច្ចុប្បន្ន ។\n"
 "មើល​សេចក្ដី​លម្អិត​សម្រាប់​ព័ត៌មាន​បន្ថែម ។"
 
 #: ../aptkit/enums.py:469
@@ -558,8 +522,8 @@ msgid ""
 "The license key which allows you to use this piece of software could not be "
 "downloaded. Please check your network connection."
 msgstr ""
-"សោ​អាជ្ញាប័ណ្ណ​​ដែល​អនុញ្ញាត​ឲ្យ​អ្នក​ប្រើ​ផ្នែក​ទន់​អាច​មិន​ត្រូវ​បាន​ទាញ​យក"
-" ។ សូម​ពិនិត្យ​មើល​ការ​តភ្ជាប់​បណ្ដាញ​របស់​អ្នក ។"
+"សោ​អាជ្ញាប័ណ្ណ​​ដែល​អនុញ្ញាត​ឲ្យ​អ្នក​ប្រើ​ផ្នែក​ទន់​អាច​មិន​ត្រូវ​បាន​ទាញ​យក ។ សូម​ពិនិត្យ​មើល​ការ​តភ្ជាប់​បណ្ដាញ​របស់​"
+"អ្នក ។"
 
 #: ../aptkit/enums.py:475
 msgid "You don't have the required privileges to perform this action."
@@ -573,9 +537,8 @@ msgid ""
 "PolicyKit session agent."
 msgstr ""
 "អ្នក​បាន​ផ្ដល់​ពាក្យ​សម្ងាត់​ខុស ឬ​បាន​បោះបង់​សេចក្ដី​អនុញ្ញាត។\n"
-"ម៉្យាងទៀត​អាច​​ជា​កំហុស​បច្ចេកទេស "
-"ប្រសិនបើ​អ្នក​មិន​អាច​មើល​ឃើញ​ប្រអប់​ពាក្យ​សម្ងាត់៖ "
-"បរិស្ថាន​ផ្ទៃតុ​របស់​អ្នក​មិន​ផ្ដល់​ភ្នាក់ងារ​សម័យ PolicyKit ឡើយ។"
+"ម៉្យាងទៀត​អាច​​ជា​កំហុស​បច្ចេកទេស ប្រសិនបើ​អ្នក​មិន​អាច​មើល​ឃើញ​ប្រអប់​ពាក្យ​សម្ងាត់៖ បរិស្ថាន​ផ្ទៃតុ​របស់​អ្នក​មិន​"
+"ផ្ដល់​ភ្នាក់ងារ​សម័យ PolicyKit ឡើយ។"
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -896,9 +859,7 @@ msgstr "ទាមទារ ស៊ីឌី​​/ឌីវីឌី '%s'"
 msgid ""
 "Please insert the above CD/DVD into the drive '%s' to install software "
 "packages from it."
-msgstr ""
-"សូម​បញ្ចូល​ ស៊ីឌី/ឌីវីឌី ខាងលើ​ទៅ​ក្នុង​ដ្រាយ '%s'  "
-"ដើម្បី​ដំឡើង​កញ្ចប់​ផ្នែក​ទន់​ ។"
+msgstr "សូម​បញ្ចូល​ ស៊ីឌី/ឌីវីឌី ខាងលើ​ទៅ​ក្នុង​ដ្រាយ '%s'  ដើម្បី​ដំឡើង​កញ្ចប់​ផ្នែក​ទន់​ ។"
 
 #: ../aptkit/gtk3widgets.py:866 ../aptkit/gtk3widgets.py:887
 msgid "C_ontinue"
@@ -993,17 +954,13 @@ msgstr "ទំហំ​ថាស​​ច្រើន %sB នឹង​ត្រ�
 #, python-format
 msgid ""
 "Replace your changes in '%s' with a later version of the configuration file?"
-msgstr ""
-"ជំនួស​ការ​ផ្លាស់ប្ដូរ​របស់​អ្នក​នៅ​ក្នុង '%s' "
-"ជាមួយ​កំណែ​ថ្មី​​របស់​ឯកសារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ឬ ?"
+msgstr "ជំនួស​ការ​ផ្លាស់ប្ដូរ​របស់​អ្នក​នៅ​ក្នុង '%s' ជាមួយ​កំណែ​ថ្មី​​របស់​ឯកសារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ឬ ?"
 
 #: ../aptkit/gtk3widgets.py:1071
 msgid ""
 "If you don't know why the file is there already, it is usually safe to "
 "replace it."
-msgstr ""
-"ប្រសិនបើ​អ្នក​មិន​ស្គាល់​មូលហេតុ​ឯកសារ​នោះ​ទេ "
-"តាម​ធម្មតា​វា​មាន​​សុវត្ថិភាព​ក្នុង​ការ​ជំនួស​វា ។"
+msgstr "ប្រសិនបើ​អ្នក​មិន​ស្គាល់​មូលហេតុ​ឯកសារ​នោះ​ទេ តាម​ធម្មតា​វា​មាន​​សុវត្ថិភាព​ក្នុង​ការ​ជំនួស​វា ។"
 
 #: ../aptkit/gtk3widgets.py:1080
 msgid "_Changes"
@@ -1031,7 +988,7 @@ msgstr "រង់ចាំ %s ដើម្បី​ចាកចេញ"
 #: ../aptkit/progress.py:168
 #, python-format
 msgid "Downloading %s"
-msgstr ""
+msgstr "កំពុងបាញ់ទម្លាប់ %s"
 
 #. TRANSLATORS: the string is used as a fallback if we cannot
 #. get the URI of a local repository
@@ -1043,7 +1000,7 @@ msgstr "ឃ្លាំង​មូលដ្ឋាន"
 #: ../aptkit/progress.py:280
 #, python-format
 msgid "Downloading from %s"
-msgstr ""
+msgstr "កំពុងទាញយកពី %s"
 
 #. TRANSLATORS: repo is the name of a repository
 #: ../aptkit/progress.py:318
@@ -1215,8 +1172,7 @@ msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
 msgstr ""
-"កញ្ចប់​ដែល​មិន​បាន​ផ្ដល់​ឲ្យ​វាល​ត្រួតពិនិត្យ​ទំហំ​ដែល​បាន​ដំឡើង​ត្រឹមត្រូវ "
-"។ សូម​មើល​គោលការណ៍​ដេបៀន 5.6.20."
+"កញ្ចប់​ដែល​មិន​បាន​ផ្ដល់​ឲ្យ​វាល​ត្រួតពិនិត្យ​ទំហំ​ដែល​បាន​ដំឡើង​ត្រឹមត្រូវ ។ សូម​មើល​គោលការណ៍​ដេបៀន 5.6.20."
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"
@@ -1224,8 +1180,7 @@ msgstr "សោ​អាជ្ញាប័ណ្ណ​​ទទេ"
 
 #: ../aptkit/worker/aptworker.py:1309
 msgid "The license key is not allowed to contain executable code."
-msgstr ""
-"សោ​អាជ្ញាប័ណ្ណ​មិន​ត្រូវ​បាន​អនុញ្ញាត​​មាន​កូដ​ឯកសារ​ប្រតិបត្តិ​បាន​ទេ ។"
+msgstr "សោ​អាជ្ញាប័ណ្ណ​មិន​ត្រូវ​បាន​អនុញ្ញាត​​មាន​កូដ​ឯកសារ​ប្រតិបត្តិ​បាន​ទេ ។"
 
 #: ../aptkit/worker/aptworker.py:1318
 #, python-format
@@ -1242,9 +1197,7 @@ msgstr "សោ​អាជ្ញាប័ណ្ណ​មាន​រួចហើ
 msgid ""
 "The location of the license key is unsecure since it contains symbolic "
 "links. The path %s maps to %s"
-msgstr ""
-"ទីតាំង​របស់​សោ​អាជ្ញាប័ណ្ណ​គឺ​គ្មាន​សុវត្ថិភាព នៅ​ពេល​វា​មាន​តំណ​ជា​​សញ្ញា ។ "
-"ផ្លូវ %s ទៅកាន់ %s"
+msgstr "ទីតាំង​របស់​សោ​អាជ្ញាប័ណ្ណ​គឺ​គ្មាន​សុវត្ថិភាព នៅ​ពេល​វា​មាន​តំណ​ជា​​សញ្ញា ។ ផ្លូវ %s ទៅកាន់ %s"
 
 #: ../aptkit/worker/aptworker.py:1335
 #, python-format

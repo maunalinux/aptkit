@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:35+0000\n"
+"PO-Revision-Date: 2025-09-08 15:28-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: bg\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -24,8 +24,7 @@ msgstr "Изброяване на ключове на доверени дост�
 
 #: ../data/org.debian.aptkit.policy.in.h:2
 msgid "To view the list of trusted keys, you need to authenticate."
-msgstr ""
-"За да видите списъка с доверени ключове, трябва да се идентифицирате."
+msgstr "За да видите списъка с доверени ключове, трябва да се идентифицирате."
 
 #: ../data/org.debian.aptkit.policy.in.h:3
 msgid "Remove downloaded package files"
@@ -77,19 +76,18 @@ msgstr "Инсталиране или премахване на пакети"
 
 #: ../data/org.debian.aptkit.policy.in.h:14
 msgid "To install or remove software, you need to authenticate."
-msgstr ""
-"За да инсталирате или премахнете софтуер, трябва да се идентифицирате."
+msgstr "За да инсталирате или премахнете софтуер, трябва да се идентифицирате."
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "Инсталиране на приложения от проверено хранилище."
@@ -100,7 +98,7 @@ msgstr "За да инсталирате софтуера, трябва да с�
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -114,15 +112,14 @@ msgstr ""
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr ""
 "Добавяне на ново хранилище на закупен софтуер и инсталиране на пакети от него"
 
@@ -464,8 +461,7 @@ msgstr "Няма необходимост от премахване."
 #: ../aptkit/enums.py:427
 msgid ""
 "You requested to remove a package which is an essential part of your system."
-msgstr ""
-"Поискахте да премахнете пакет който е основна част от вашата система."
+msgstr "Поискахте да премахнете пакет който е основна част от вашата система."
 
 #: ../aptkit/enums.py:430
 msgid ""
@@ -1000,8 +996,7 @@ msgstr ""
 msgid ""
 "If you don't know why the file is there already, it is usually safe to "
 "replace it."
-msgstr ""
-"Ако не знаете защо файла е там, обикновенно е безопасно да го смените."
+msgstr "Ако не знаете защо файла е там, обикновенно е безопасно да го смените."
 
 #: ../aptkit/gtk3widgets.py:1080
 msgid "_Changes"

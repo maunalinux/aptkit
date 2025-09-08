@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:39+0000\n"
+"PO-Revision-Date: 2025-09-08 15:53-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Thai <th@li.org>\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: th\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -76,18 +76,17 @@ msgstr "คุณต้องยืนยันตัวเพื่อติด
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
-msgstr ""
-"ติดตั้งซอฟต์แวร์จากคลังแพกเกจในรายการที่อนุญาตซึ่งมีความน่าเชื่อถือสูง"
+msgstr "ติดตั้งซอฟต์แวร์จากคลังแพกเกจในรายการที่อนุญาตซึ่งมีความน่าเชื่อถือสูง"
 
 #: ../data/org.debian.aptkit.policy.in.h:26
 msgid "To install software, you need to authenticate."
@@ -95,7 +94,7 @@ msgstr "คุณต้องยืนยันตัวตนเพื่อต
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -108,15 +107,14 @@ msgstr "คุณต้องยืนยันตัวเพื่อติด
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "เพิ่มคลังเก็บโปรแกรมที่ซื้อมาแล้วและใช้ติดตั้งโปรแกรม"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
@@ -394,8 +392,7 @@ msgid ""
 "they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
 msgstr ""
-"ตรวจดูว่าใช้คลังแพกเกจของเจ้าอื่นหรือเปล่า ถ้าปิดการทำงานคลังนั้น ๆ "
-"เนือกจากปัญหาจากแหล่งที่มา\n"
+"ตรวจดูว่าใช้คลังแพกเกจของเจ้าอื่นหรือเปล่า ถ้าปิดการทำงานคลังนั้น ๆ เนือกจากปัญหาจากแหล่งที่มา\n"
 "ให้ลองเรียกคำส่งในเทอร์มินัล: apt-get install -f"
 
 #: ../aptkit/enums.py:411
@@ -406,17 +403,14 @@ msgstr "แฟ้มที่เลือกไว้อาจไม่ใช่
 msgid ""
 "The selected key couldn't be removed. Check that you provided a valid "
 "fingerprint."
-msgstr ""
-"กุญแจที่เลือกไว้ไม่สามารถถอดถอนได้ "
-"ให้ตรวจดูว่าลายนิวมือที่คุณให้ไว้ถูกต้องหรือไม่"
+msgstr "กุญแจที่เลือกไว้ไม่สามารถถอดถอนได้ ให้ตรวจดูว่าลายนิวมือที่คุณให้ไว้ถูกต้องหรือไม่"
 
 #: ../aptkit/enums.py:415
 msgid ""
 "Check if you are currently running another software management tool, e.g. "
 "Synaptic or aptitude. Only one tool is allowed to make changes at a time."
 msgstr ""
-"ตรวจดูว่าคุณกำลังทำงานกับโปรแกรมจัดการตัวอื่น ๆ อยู่หรือเปล่า เช่น Synaptic "
-"หรือ aptitude "
+"ตรวจดูว่าคุณกำลังทำงานกับโปรแกรมจัดการตัวอื่น ๆ อยู่หรือเปล่า เช่น Synaptic หรือ aptitude "
 "อณุญาตแค่โปรแกรมเดียวเท่านั้นที่สามารถทำการเปลี่ยนแปลงในเวลาเดียวกันได้"
 
 #: ../aptkit/enums.py:418
@@ -424,15 +418,13 @@ msgid ""
 "This is a serious problem. Try again later. If this problem appears again, "
 "please report an error to the developers."
 msgstr ""
-"นี้เป็นปัญหาร้ายแรง โปรดลองใหม่ภายหลัง ถ้ายังพบปัญหานี้อีก "
-"โปรดรายงานข้อผิดพลาดไปที่นักพัฒนา"
+"นี้เป็นปัญหาร้ายแรง โปรดลองใหม่ภายหลัง ถ้ายังพบปัญหานี้อีก โปรดรายงานข้อผิดพลาดไปที่นักพัฒนา"
 
 #: ../aptkit/enums.py:421
 msgid ""
 "Check the spelling of the package name, and that the appropriate repository "
 "is enabled."
-msgstr ""
-"ตรวจดูว่าสะกดชื่อแพกเกจถูกหรือเปล่า และ คลังแพกเกจที่ถูกต้องถูกเปิดใช้งานแล้ว"
+msgstr "ตรวจดูว่าสะกดชื่อแพกเกจถูกหรือเปล่า และ คลังแพกเกจที่ถูกต้องถูกเปิดใช้งานแล้ว"
 
 #: ../aptkit/enums.py:423
 msgid "There isn't any need for an update."
@@ -455,8 +447,7 @@ msgstr "คุณได้ร้องขอให้ถอดถอนแพก
 msgid ""
 "The connection to the daemon was lost. Most likely the background daemon "
 "crashed."
-msgstr ""
-"การเชื่อมต่อไปที่ดีมอนหลุดแล้ว ดูเหมือนกับว่าดีมอนที่ทำงานอยู่ฉากหลังขัดข้อง"
+msgstr "การเชื่อมต่อไปที่ดีมอนหลุดแล้ว ดูเหมือนกับว่าดีมอนที่ทำงานอยู่ฉากหลังขัดข้อง"
 
 #: ../aptkit/enums.py:432
 msgid "The installation or removal of a software package failed."
@@ -472,9 +463,8 @@ msgid ""
 "you to install/remove software and to perform other package management "
 "related tasks."
 msgstr ""
-"น่าจะเป็นข้อผิดพลาดจากการเขียนโปรแกรมใน aptkit "
-"โปรแกรมนี้ทำการติดตั้ง/ถอดถอนโปรแกรมและจัดการด้านแพกเกจหรืองานต่าง ๆ "
-"ที่เกียวข้อง"
+"น่าจะเป็นข้อผิดพลาดจากการเขียนโปรแกรมใน aptkit โปรแกรมนี้ทำการติดตั้ง/"
+"ถอดถอนโปรแกรมและจัดการด้านแพกเกจหรืองานต่าง ๆ ที่เกียวข้อง"
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -496,8 +486,7 @@ msgid ""
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
 msgstr ""
-"การติดตั้งนี้ล้มเหลวเพราะว่ามีข้อผิดพลาดจาดแพกเกจโปรแกรม หรือ "
-"ถูกยกเลิกการติดตั้งในทางที่ไม่ปกติ "
+"การติดตั้งนี้ล้มเหลวเพราะว่ามีข้อผิดพลาดจาดแพกเกจโปรแกรม หรือ ถูกยกเลิกการติดตั้งในทางที่ไม่ปกติ "
 "คุณควรซ่อมแซมเรื่องนี้ก่อนที่จะติดตั้งหรือถอดถอดโปรแกรมอื่น ๆ เพิ่ม"
 
 #: ../aptkit/enums.py:453
@@ -514,8 +503,7 @@ msgid ""
 msgstr ""
 "ไม่อนุญาติให้ทำการติดตั้งแพกเกจที่มีคุณภาพต่ำกว่ามาตราฐาน "
 "เรื่องนี้อาจทำให้เกิดปัญหาร้ายแรงมากกับเครื่องคอมพิวเตอร์ของคุณ "
-"โปรดติดตั้งคนหรือองค์กรณ์ที่ทำการจำหน่ายแฟ้มแพกเกจนี้รวมถึงรายละเอียดอื่น ๆ "
-"ด้วย"
+"โปรดติดตั้งคนหรือองค์กรณ์ที่ทำการจำหน่ายแฟ้มแพกเกจนี้รวมถึงรายละเอียดอื่น ๆ ด้วย"
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -523,8 +511,7 @@ msgid ""
 "is not valid or could not be installed correctly.\n"
 "See the details for more information."
 msgstr ""
-"คีย์ใบอนุญาตที่ดาวน์โหลดมาที่ต้องใช้เรียกทำงานซอฟต์แวร์ส่วนนี้อาจไม่ได้รับการ"
-"ติดตั้งอย่างถูกต้อง\n"
+"คีย์ใบอนุญาตที่ดาวน์โหลดมาที่ต้องใช้เรียกทำงานซอฟต์แวร์ส่วนนี้อาจไม่ได้รับการติดตั้งอย่างถูกต้อง\n"
 "ดูรายละเอียดสำหรับข้อมูลเพิ่มเติม"
 
 #: ../aptkit/enums.py:469
@@ -551,9 +538,8 @@ msgid ""
 "PolicyKit session agent."
 msgstr ""
 "คุณอาจจะกรอกรหัสผ่านผิด หรือยกเลิกการยืนยันตัวตนแล้ว\n"
-"นอกจากนี้ อาจมีเหตุขัดข้องทางเทคนิคสำหรับข้อผิดพลาดข้อนี้ได้ "
-"หากไม่เห็นกล่องโต้ตอบรหัสผ่าน: สภาพแวดล้อมเดสก์ท็อปของคุณ "
-"ไม่ได้จัดหาตัวแทนวาระ PolicyKit"
+"นอกจากนี้ อาจมีเหตุขัดข้องทางเทคนิคสำหรับข้อผิดพลาดข้อนี้ได้ หากไม่เห็นกล่องโต้ตอบรหัสผ่าน: "
+"สภาพแวดล้อมเดสก์ท็อปของคุณ ไม่ได้จัดหาตัวแทนวาระ PolicyKit"
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -1186,9 +1172,7 @@ msgstr "เอาแพกเกจ %s ออกไม่ได้"
 msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
-msgstr ""
-"แพกเกจนี้มีข้อมูลขนาดการติดตั้งที่ไม่ถูกต้อง ดูรายละเอียดในนโยบาย Debian "
-"5.6.20"
+msgstr "แพกเกจนี้มีข้อมูลขนาดการติดตั้งที่ไม่ถูกต้อง ดูรายละเอียดในนโยบาย Debian 5.6.20"
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"
@@ -1214,8 +1198,8 @@ msgid ""
 "The location of the license key is unsecure since it contains symbolic "
 "links. The path %s maps to %s"
 msgstr ""
-"ตำแหน่งที่ตั้งของคีย์ใบอนุญาตไม่ปลอดภัยตั้งแต่ที่คีย์ใบอนุญาตมีสัญลักษณ์การเช"
-"ื่อมโยง เส้นทาง %s โยงไปที่ %s"
+"ตำแหน่งที่ตั้งของคีย์ใบอนุญาตไม่ปลอดภัยตั้งแต่ที่คีย์ใบอนุญาตมีสัญลักษณ์การเชื่อมโยง เส้นทาง %s "
+"โยงไปที่ %s"
 
 #: ../aptkit/worker/aptworker.py:1335
 #, python-format

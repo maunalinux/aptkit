@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:37+0000\n"
+"PO-Revision-Date: 2025-09-08 15:42-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: ko\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -76,14 +76,14 @@ msgstr "프로그램을 추가 혹은 제거하려면 인증이 필요합니다.
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr "매우 신뢰하는 저장소에서 소프트웨어 설치"
@@ -94,7 +94,7 @@ msgstr "소프트웨어를 설치하려면 인증을 해야합니다."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -107,15 +107,14 @@ msgstr "새 소스에서 소프트웨어를 설치하려면 인증이 필요합�
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr "구입한 프로그램의 저장소를 추가하고 패키지 설치"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
@@ -393,8 +392,9 @@ msgid ""
 "they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
 msgstr ""
-"일반적으로 문제의 원인이 되는 서드 파티 저장소를 사용 여부를 확인한 후 사용하고 있는 서드 파티 저장소를 사용하지 않도록 "
-"설정하십시오.또한 다음 명령을 터미널에서 실행하십시오: apt-get install -f"
+"일반적으로 문제의 원인이 되는 서드 파티 저장소를 사용 여부를 확인한 후 사용하"
+"고 있는 서드 파티 저장소를 사용하지 않도록 설정하십시오.또한 다음 명령을 터미"
+"널에서 실행하십시오: apt-get install -f"
 
 #: ../aptkit/enums.py:411
 msgid "The selected file may not be a GPG key file or it might be corrupt."
@@ -411,21 +411,24 @@ msgid ""
 "Check if you are currently running another software management tool, e.g. "
 "Synaptic or aptitude. Only one tool is allowed to make changes at a time."
 msgstr ""
-"현재 시냅틱 또는 apttiude와 같은 다른 소프트웨어 관리 도구를 실행 중인지 확인하십시오. 한번에 한 개의 도구만이 시스템을 바꿀 "
-"수 있습니다."
+"현재 시냅틱 또는 apttiude와 같은 다른 소프트웨어 관리 도구를 실행 중인지 확인"
+"하십시오. 한번에 한 개의 도구만이 시스템을 바꿀 수 있습니다."
 
 #: ../aptkit/enums.py:418
 msgid ""
 "This is a serious problem. Try again later. If this problem appears again, "
 "please report an error to the developers."
 msgstr ""
-"이것은 심각한 문제입니다. 잠시 뒤 다시 시도하십시오. 만약 이러한 문제가 계속 발생한다면 개발자에게 오류를 보고해 주십시오."
+"이것은 심각한 문제입니다. 잠시 뒤 다시 시도하십시오. 만약 이러한 문제가 계속 "
+"발생한다면 개발자에게 오류를 보고해 주십시오."
 
 #: ../aptkit/enums.py:421
 msgid ""
 "Check the spelling of the package name, and that the appropriate repository "
 "is enabled."
-msgstr "패키지 이름의 철자를 확인하십시오, 패키지 이름으로 적합한 저장소를 사용하도록 합니다."
+msgstr ""
+"패키지 이름의 철자를 확인하십시오, 패키지 이름으로 적합한 저장소를 사용하도"
+"록 합니다."
 
 #: ../aptkit/enums.py:423
 msgid "There isn't any need for an update."
@@ -448,7 +451,9 @@ msgstr "시스템의 필수 패키지를 제거할 것을 요청했습니다."
 msgid ""
 "The connection to the daemon was lost. Most likely the background daemon "
 "crashed."
-msgstr "데몬 연결을 잃어 버렸습니다. 백그라운드 데몬이 충돌한 것이 이유일 가능서이 높습니다."
+msgstr ""
+"데몬 연결을 잃어 버렸습니다. 백그라운드 데몬이 충돌한 것이 이유일 가능서이 높"
+"습니다."
 
 #: ../aptkit/enums.py:432
 msgid "The installation or removal of a software package failed."
@@ -464,8 +469,8 @@ msgid ""
 "you to install/remove software and to perform other package management "
 "related tasks."
 msgstr ""
-"이 것은 aptkit의 프로그래밍 오류인 것 같습니다. 이 소프트웨어는 프로그램을 설치하고 제거할 수 있게 한 후 작업과 관계 있는 다른 "
-"패키지 관리자를 실행합니다."
+"이 것은 aptkit의 프로그래밍 오류인 것 같습니다. 이 소프트웨어는 프로그램을 설"
+"치하고 제거할 수 있게 한 후 작업과 관계 있는 다른 패키지 관리자를 실행합니다."
 
 #: ../aptkit/enums.py:439
 msgid ""
@@ -474,8 +479,8 @@ msgid ""
 "between software packages which are not allowed to be installed at the same "
 "time."
 msgstr ""
-"이 오류는 요청한 추가 소프트웨어 패키지가 없거나 설치할 수 없을 경우 발생합니다.또한 동시에 설치할 수 없는 소프트웨어 패키지의 충돌일 "
-"수도 있습니다."
+"이 오류는 요청한 추가 소프트웨어 패키지가 없거나 설치할 수 없을 경우 발생합니"
+"다.또한 동시에 설치할 수 없는 소프트웨어 패키지의 충돌일 수도 있습니다."
 
 #: ../aptkit/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
@@ -487,8 +492,9 @@ msgid ""
 "software package or it was cancelled in an unfriendly way. You have to "
 "repair this before you can install or remove any further software."
 msgstr ""
-"패키지에 문제가 있었거나, 설치가 올바르지 않은 방법으로 취소하여 설치 과정에 실패했습니다.추가 소프트웨어를 설치/제거 하기 전에 우선 "
-"이 문제를 해결해야 합니다."
+"패키지에 문제가 있었거나, 설치가 올바르지 않은 방법으로 취소하여 설치 과정에 "
+"실패했습니다.추가 소프트웨어를 설치/제거 하기 전에 우선 이 문제를 해결해야 합"
+"니다."
 
 #: ../aptkit/enums.py:453
 msgid ""
@@ -502,8 +508,9 @@ msgid ""
 "the person or organisation who provided this package file and include the "
 "details beneath."
 msgstr ""
-"품질 기준에 어긋난 패키지를 설치할 수 없습니다. 이것은 컴퓨터에 문제를 일으킬 수 있습니다.본 패키지를 제공한 사람 혹은 기관에 연락한 "
-"후 아래의 정보를 첨부해주세요."
+"품질 기준에 어긋난 패키지를 설치할 수 없습니다. 이것은 컴퓨터에 문제를 일으"
+"킬 수 있습니다.본 패키지를 제공한 사람 혹은 기관에 연락한 후 아래의 정보를 첨"
+"부해주세요."
 
 #: ../aptkit/enums.py:463
 msgid ""
@@ -511,7 +518,8 @@ msgid ""
 "is not valid or could not be installed correctly.\n"
 "See the details for more information."
 msgstr ""
-"이 소프트웨어를 사용하는데 필요한 다운로드 라이선스 키가 유효하지 않거나 올바로 설치할 수 없습니다.\n"
+"이 소프트웨어를 사용하는데 필요한 다운로드 라이선스 키가 유효하지 않거나 올바"
+"로 설치할 수 없습니다.\n"
 "더 많은 정보를 자세한 내용을 확인하십시오."
 
 #: ../aptkit/enums.py:469
@@ -522,7 +530,9 @@ msgstr "사용할 수 있는 모든 업그레이드를 설치했습니다."
 msgid ""
 "The license key which allows you to use this piece of software could not be "
 "downloaded. Please check your network connection."
-msgstr "이 소프트웨어를 사용하는데 필요한 라이선스 키를 다운로드할 수 없습니다.네트워크 연결을 확인하십시오."
+msgstr ""
+"이 소프트웨어를 사용하는데 필요한 라이선스 키를 다운로드할 수 없습니다.네트워"
+"크 연결을 확인하십시오."
 
 #: ../aptkit/enums.py:475
 msgid "You don't have the required privileges to perform this action."
@@ -536,8 +546,9 @@ msgid ""
 "PolicyKit session agent."
 msgstr ""
 "올바르지 않은 암호를 입력했거나 인증을 취소했습니다.\n"
-"뿐만 아니라 암호 입력 대화 상자를 볼 수 없는 경우에는 기술적인 원인으로 이 오류가 발생했을 수 있습니다. 사용자의 데스크톱 환경이 "
-"PolicyKit 세션 에이전트를 제공하지 않습니다."
+"뿐만 아니라 암호 입력 대화 상자를 볼 수 없는 경우에는 기술적인 원인으로 이 오"
+"류가 발생했을 수 있습니다. 사용자의 데스크톱 환경이 PolicyKit 세션 에이전트"
+"를 제공하지 않습니다."
 
 #: ../aptkit/enums.py:485
 msgid "Failed to download package files"
@@ -858,7 +869,8 @@ msgstr "CD/DVD '%s'이(가) 필요합니다"
 msgid ""
 "Please insert the above CD/DVD into the drive '%s' to install software "
 "packages from it."
-msgstr "소프트웨어 패키지를 설치하려면 위 CD/DVD을(를) '%s' 드라이브에 넣어주십시오."
+msgstr ""
+"소프트웨어 패키지를 설치하려면 위 CD/DVD을(를) '%s' 드라이브에 넣어주십시오."
 
 #: ../aptkit/gtk3widgets.py:866 ../aptkit/gtk3widgets.py:887
 msgid "C_ontinue"
@@ -959,7 +971,8 @@ msgstr "파일 '%s'의 바뀐 내용을 최신 설정 파일로 바꾸시겠습�
 msgid ""
 "If you don't know why the file is there already, it is usually safe to "
 "replace it."
-msgstr "이유를 알 수는 없어도 파일이 존재한다면 그 파일은 교체해도 안전한 파일입니다."
+msgstr ""
+"이유를 알 수는 없어도 파일이 존재한다면 그 파일은 교체해도 안전한 파일입니다."
 
 #: ../aptkit/gtk3widgets.py:1080
 msgid "_Changes"
@@ -1170,7 +1183,9 @@ msgstr "패키지 %s을(를) 제거할 수 없습니다"
 msgid ""
 "The package doesn't provide a valid Installed-Size control field. See Debian "
 "Policy 5.6.20."
-msgstr "이 패키지는 올바른 설치 용량 정보를 제공하지 않습니다. Debian Policy 5.6.20을 참고하십시오."
+msgstr ""
+"이 패키지는 올바른 설치 용량 정보를 제공하지 않습니다. Debian Policy 5.6.20"
+"을 참고하십시오."
 
 #: ../aptkit/worker/aptworker.py:1293
 msgid "The license key is empty"
@@ -1195,7 +1210,9 @@ msgstr "라이선스 키가 올바르지 않습니다: %s"
 msgid ""
 "The location of the license key is unsecure since it contains symbolic "
 "links. The path %s maps to %s"
-msgstr "라이선스 키의 위치가 심볼릭 링크를 포함하고 있기 때문에 불안정합니다.경로 %s이(가) %s(으)로 연결되었습니다"
+msgstr ""
+"라이선스 키의 위치가 심볼릭 링크를 포함하고 있기 때문에 불안정합니다.경로 %s"
+"이(가) %s(으)로 연결되었습니다"
 
 #: ../aptkit/worker/aptworker.py:1335
 #, python-format

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-09 18:37+0000\n"
+"PO-Revision-Date: 2025-09-08 15:30-0300\n"
 "Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
 "Language-Team: Greek <team@gnome.gr>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: el\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -34,8 +34,7 @@ msgstr "Αφαίρεση ληφθέντων αρχείων πακέτων"
 
 #: ../data/org.debian.aptkit.policy.in.h:4
 msgid "To clean downloaded package files, you need to authenticate."
-msgstr ""
-"Χρειάζεται πιστοποίηση για να εκκαθαρίσετε τα ληφθέντα αρχεία πακέτων."
+msgstr "Χρειάζεται πιστοποίηση για να εκκαθαρίσετε τα ληφθέντα αρχεία πακέτων."
 
 #: ../data/org.debian.aptkit.policy.in.h:5
 msgid "Change software configuration"
@@ -69,8 +68,7 @@ msgstr "Ενημέρωση πληροφοριών πακέτων"
 
 #: ../data/org.debian.aptkit.policy.in.h:12
 msgid "To update the software catalog, you need to authenticate."
-msgstr ""
-"Για να ενημερωθεί ο κατάλογος λογισμικού, πρέπει να γίνει ταυτοποίηση."
+msgstr "Για να ενημερωθεί ο κατάλογος λογισμικού, πρέπει να γίνει ταυτοποίηση."
 
 #: ../data/org.debian.aptkit.policy.in.h:13
 msgid "Install or remove packages"
@@ -83,14 +81,14 @@ msgstr ""
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr ""
@@ -103,7 +101,7 @@ msgstr "Για την εγκατάσταση λογισμικού, θα πρέπ
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -118,15 +116,14 @@ msgstr ""
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr ""
 "Προσθέστε ένα καινούργιο αποθετήριο αγορασμένου λογισμικού και εγκατάσταση "
 "πακέτων από αυτό"
@@ -1201,8 +1198,7 @@ msgstr "Η έκδοση %s του/της %s δεν είναι διαθέσιμη
 #: ../aptkit/worker/aptworker.py:801
 #, python-format
 msgid "You need to specify a version to downgrade %s to"
-msgstr ""
-"Πρέπει να προσδιορίστε μια έκδοση υπαναχώρισης (downgrade) του/της %s"
+msgstr "Πρέπει να προσδιορίστε μια έκδοση υπαναχώρισης (downgrade) του/της %s"
 
 #: ../aptkit/worker/aptworker.py:831
 #, python-format
@@ -1233,8 +1229,7 @@ msgstr "Το κλειδί της άδειας χρήσης είναι κενό"
 
 #: ../aptkit/worker/aptworker.py:1309
 msgid "The license key is not allowed to contain executable code."
-msgstr ""
-"Το κλειδί άδειας χρήσης δεν επιτρέπεται να περιέχει εκτελέσιμο κώδικα."
+msgstr "Το κλειδί άδειας χρήσης δεν επιτρέπεται να περιέχει εκτελέσιμο κώδικα."
 
 #: ../aptkit/worker/aptworker.py:1318
 #, python-format

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: aptkit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 19:27+0100\n"
-"PO-Revision-Date: 2024-09-14 18:26+0000\n"
+"PO-Revision-Date: 2025-09-08 15:43-0300\n"
 "Last-Translator: Pjotr12345 <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2025-01-06 12:02+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
-"Language: nl\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: ../data/org.debian.aptkit.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -86,14 +86,14 @@ msgstr ""
 
 #. This priviledge will be requested when installing a package
 #. from a high trusted repository that can be explicitely whitelisted.
-#. 
+#.
 #. The defaults for this action are the same as
 #. "org.debian.aptkit.install-or-remove-packages".
-#. 
+#.
 #. The admin can override them to e.g. allow passwordless installs for
 #. leightweight applications like unity-webapps or for packages
 #. comming from high trust repositories (like internal repositories)
-#. 
+#.
 #: ../data/org.debian.aptkit.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
 msgstr ""
@@ -106,7 +106,7 @@ msgstr "Om programmatuur te installeren dient u zich te authenticeren."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
 #: ../data/org.debian.aptkit.policy.in.h:32
@@ -120,23 +120,21 @@ msgstr ""
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
-#. 
+#.
 #. The client has to authenticate for this privilege before calling
 #. the aptkit methods.
-#. 
+#.
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.aptkit.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
+msgid "Add a new repository of purchased software and install packages from it"
 msgstr ""
 "Voeg een nieuwe pakketbron toe voor aangekochte programmatuur en installeer "
 "daaruit pakketten"
 
 #: ../data/org.debian.aptkit.policy.in.h:43
 msgid "To install purchased software, you need to authenticate."
-msgstr ""
-"Authenticatie is vereist om aangekochte programmatuur te installeren."
+msgstr "Authenticatie is vereist om aangekochte programmatuur te installeren."
 
 #: ../data/org.debian.aptkit.policy.in.h:44
 msgid "Upgrade packages"
@@ -488,8 +486,7 @@ msgstr ""
 
 #: ../aptkit/enums.py:432
 msgid "The installation or removal of a software package failed."
-msgstr ""
-"De installatie of verwijdering van een programmatuurpakket is mislukt."
+msgstr "De installatie of verwijdering van een programmatuurpakket is mislukt."
 
 #: ../aptkit/enums.py:434
 msgid "The requested feature is not supported."
@@ -1262,8 +1259,7 @@ msgstr ""
 #: ../aptkit/worker/aptworker.py:1335
 #, python-format
 msgid "The directory where to install the key to doesn't exist yet: %s"
-msgstr ""
-"De map waar de sleutel geïnstalleerd moet worden bestaat nog niet: %s"
+msgstr "De map waar de sleutel geïnstalleerd moet worden bestaat nog niet: %s"
 
 #: ../aptkit/worker/aptworker.py:1346
 #, python-format
