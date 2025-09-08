@@ -7,3 +7,4 @@ debian/*substvars*
 debian/files
 .pybuild/
 aptkit.egg-info/
+po/*.mo
