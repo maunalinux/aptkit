@@ -1,3 +1,9 @@
+aptkit (1.0.6) polaris; urgency=medium
+
+  * New upstream release
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 17 Dec 2025 16:00:30 -0300
+
 aptkit (1.0.5) polaris; urgency=medium
 
   * New upstream release
